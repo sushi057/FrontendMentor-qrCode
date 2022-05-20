@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400&family=Outfit:wght@400;700&family=Poppins:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #d6e2f0;
+  margin: 0;
+  font-family: "outfit";
+  font-size: 15px;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: calc(100vh -1px);
+  background: white;
+  margin: 100px auto;
+  padding: 18px;
+  padding-bottom: 50px;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.08);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.08);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 97%;
+  border-radius: 12px;
+  padding-bottom: 5px;
+}
+
+.text-top {
+  font-size: .9em;
+  text-align: center;
+  margin: auto 10px;
+  color: #1f3251;
+}
+
+.text-down {
+  text-align: center;
+  margin: auto 10px;
+  color: #7b879d;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 500px) {
+  .hero {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
